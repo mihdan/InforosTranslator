@@ -1,7 +1,7 @@
 InforosTranslator
 =================
 
-Доступ к платному API Google Translate
+Класс для доступа к платному API Google Translate. Содержит три основных метода: languages(), detect(), translate()
 
 #Как это работает
 
