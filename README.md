@@ -6,6 +6,7 @@ InforosTranslator
 Как это работает
 ================
 
+```php
 <?php
 $key = 'api key';
 $query = 'привет мир';
@@ -16,3 +17,4 @@ $translator->apiKey = $key;
 $response = $translator->translate($query, $source, $target);
 echo json_encode($response);
 ?>
+```
